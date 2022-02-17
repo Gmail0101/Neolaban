@@ -1,0 +1,108 @@
+@charset "utf-8";
+@import "./font/font.css"; /* font-family: 'NanumSquare', sans-serif; } */
+
+*{margin:0; padding: 0;}
+:root{
+    --main-color:#333;
+    --color-white:#fff;
+    --footer-color:rgba(255,255,255,0.5);
+}
+/* a 태그 초기화 */
+a{color:var(--main-color)}
+a:hover,a:active,a:visited,a:link{color:var(--main-color); text-decoration: none;}
+
+
+/* li,ol 초기화 */
+ol,li{list-style: none;}
+
+body{
+    font-family: 'NanumSquare', sans-serif;
+}
+
+/* 이미지 크기조절 */
+.img-width{width:100%;}
+.img-width-reset{width:99.5%;}
+
+/* 여백 */
+.padding-all{
+    padding: 27px 0px;
+}
+
+/* 
+        overflow:hidden
+이걸쓰는데 왜 잡히는지 모르겠네.. 
+
+*/
+.main-overflow{
+    overflow: hidden;
+}
+
+/* 초기화 */
+.gnb::after{
+    content:'';
+	width:0; height:0;
+	visibility:hidden;
+	display:block;
+	clear:both;
+}
+#navi{position:absolute; width:100%; background-color: rgba(0, 0, 0, 0.25); z-index: 1;}
+
+/* GNB list */
+.menu-list{
+    display: none;
+    cursor: pointer;
+    float: right;
+    position: absolute;
+    top: 2vh;
+    right: 5vw;
+}
+
+
+/* GNB */
+.logo{
+    display: inline-block;
+    height: 10vh;
+    /* width:11.7%;
+    padding: 7.5px 0px; */
+}
+.logo>img{height: 10vh;}
+nav{
+    width:62.5%;                   /* 임시 픽셀 */
+    margin: 0 auto;
+}
+nav>ul{
+    float:right;
+    align-items: center;
+}
+
+.gnb>li{
+    float:left;
+    /* padding: 27px 5px;  */
+    text-align: center;
+    width:130px;
+    line-height: 10vh;
+}
+.gnb>li>a{
+    /* font-size: 1.3021vw; */
+    font-size: 20px;
+    font-weight: 800;
+    color: var( --color-white);
+}
+
+/* 서브메뉴 */
+.sub{
+    display: none;
+    position: relative;
+    top:-5px;
+}
+.sub>li{
+    width:100%;
+    text-align:center;
+    line-height: 5vh;
+    /* background-color: #fff; */
+}
+.sub>li>a{
+    font-size: 16px;
+    font-weight: 800;
+    color: var( --color-white);
+}

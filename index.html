@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>골프장</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+    <link href="./css/fullpage.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div id="navi">
+        <nav>
+            <div class="logo">
+                <img src="./images/logo_bg_none.png" alt="로고">
+            </div>
+            <ul class="gnb">
+                <li><a href="#">회사소개</a>
+                    <ul class="sub">
+                        <li><a href="#">인사말</a></li>
+                        <li><a href="#">조직도</a></li>
+                        <li><a href="#">찾아오시는 길</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">제조&middot;유통사업</a>
+                    <ul class="sub">
+                        <li><a href="#">마스크 제조&middot;유통</a></li>
+                        <li><a href="#">핸드폰</a></li>
+                        <li><a href="#">식품</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">분양대행</a>
+                    <ul class="sub">
+                        <li><a href="#">호텔&middot;골프장&middot;리조트</a></li>
+                        <li><a href="#">회원권 분양</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="fullpage">
+        <div class="section">1</div>
+        <div class="section">2</div>
+        <div class="section">3</div>
+        <div class="section">4</div>
+    </div>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        new fullpage('#fullpage', {
+            //options here
+            autoScrolling:true,
+            scrollHorizontally: true,
+            fitToSection: true,
+            scrollingSpeed: 1300,
+            sectionsColor : ['green', '#CCC', 'blue', 'green']
+        })
+        </script>
+</body>
+</html>
