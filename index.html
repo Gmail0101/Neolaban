@@ -7,60 +7,92 @@
     <title>골프장</title>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+    <!-- 풀페이지 -->
     <link href="./css/fullpage.min.css" rel="stylesheet" type="text/css" />
+    <!-- 부트스트랩 -->
     <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- MainPage StyleCSS -->
     <link href="./css/style.css" rel="stylesheet" type="text/css">
-
 </head>
 <body>
-    <div id="navi">
-        <nav>
-            <div class="logo">
-                <img src="./images/logo_bg_none.png" alt="로고">
+    <header>
+        <div class="nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 ">
+                        <img src="./images/logo/logo.png" alt="로고" class="logo">
+                        <ul class="menu">
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">B2B Business</a></li>
+                            <li><a href="#">B2C Business</a></li>
+                            <li><a href="#">미디어센터</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <ul class="gnb">
-                <li><a href="#">회사소개</a>
-                    <ul class="sub">
-                        <li><a href="#">인사말</a></li>
-                        <li><a href="#">조직도</a></li>
-                        <li><a href="#">찾아오시는 길</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">제조&middot;유통사업</a>
-                    <ul class="sub">
-                        <li><a href="#">마스크 제조&middot;유통</a></li>
-                        <li><a href="#">핸드폰</a></li>
-                        <li><a href="#">식품</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">분양대행</a>
-                    <ul class="sub">
-                        <li><a href="#">호텔&middot;골프장&middot;리조트</a></li>
-                        <li><a href="#">회원권 분양</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </div>
+        </div>
+    </header>
 
     <div id="fullpage">
-        <div class="section">1</div>
-        <div class="section">2</div>
-        <div class="section">3</div>
+        <div class="section sec_01">
+            <div class="main_title">
+                <h1>NEO LABEN</h1>
+                <p>더 나은 삶을 꿈꿀 수 있는 회사가 되기위해 최고의 시스템 및 미래가치를 만들고 있습니다.</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 sec_02">
+                        <div class="sec_02_textbox">
+                            <h1>B2B<br/>BUSINESS</h1>
+                            <em>유통사업</em>
+                            <p>
+                                많이 바이며, 그들은 지혜는 우리의 대한 끝까지 교향악
+                                이다. 천고에 많이 바로 것은 뭇 곧 품었기 부패뿐이다. 피는 
+                                인도하겠다는 만천하의 얼마나 방황하여도, 무엇이 힘있다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="sec_02_imgbox">
+                            <img src="/images/main/KF94.png" alt="마스크">
+                            <img src="/images/main/phone.png" alt="휴대폰">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_bg"></div>         <!-- sec2 sec3 사이 이미지 -->
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="sec_03_imgbox">
+                            <img src="/images/main/bed.png" alt="침대">
+                            <img src="/images/main/golf.png" alt="골프">
+                            <img src="/images/main/Dish.png" alt="요리">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 sec_03">
+                        <div class="sec_03_textbox">
+                            <h1>B2B<br/>BUSINESS</h1>
+                            <em>유통사업</em>
+                            <p>
+                                많이 바이며, 그들은 지혜는 우리의 대한 끝까지 교향악
+                                이다. 천고에 많이 바로 것은 뭇 곧 품었기 부패뿐이다. 피는 
+                                인도하겠다는 만천하의 얼마나 방황하여도, 무엇이 힘있다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="section">4</div>
     </div>
 
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/main.js"></script>
-    <script>
-        new fullpage('#fullpage', {
-            //options here
-            autoScrolling:true,
-            scrollHorizontally: true,
-            fitToSection: true,
-            scrollingSpeed: 1300,
-            sectionsColor : ['green', '#CCC', 'blue', 'green']
-        })
-        </script>
+    <script src="./js/fullpage.js"></script>
 </body>
 </html>

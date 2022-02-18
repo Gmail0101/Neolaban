@@ -2,11 +2,14 @@
 @import "./font/font.css"; /* font-family: 'NanumSquare', sans-serif; } */
 
 *{margin:0; padding: 0;}
+
 :root{
     --main-color:#333;
     --color-white:#fff;
-    --footer-color:rgba(255,255,255,0.5);
+    --main-title:#444;
+    --main-text:#777;    
 }
+
 /* a 태그 초기화 */
 a{color:var(--main-color)}
 a:hover,a:active,a:visited,a:link{color:var(--main-color); text-decoration: none;}
@@ -15,94 +18,162 @@ a:hover,a:active,a:visited,a:link{color:var(--main-color); text-decoration: none
 /* li,ol 초기화 */
 ol,li{list-style: none;}
 
-body{
-    font-family: 'NanumSquare', sans-serif;
-}
+body{font-family: 'NanumSquare', sans-serif;}
 
-/* 이미지 크기조절 */
-.img-width{width:100%;}
-.img-width-reset{width:99.5%;}
 
-/* 여백 */
-.padding-all{
-    padding: 27px 0px;
-}
 
-/* 
-        overflow:hidden
-이걸쓰는데 왜 잡히는지 모르겠네.. 
-
-*/
-.main-overflow{
-    overflow: hidden;
-}
-
-/* 초기화 */
-.gnb::after{
-    content:'';
-	width:0; height:0;
-	visibility:hidden;
-	display:block;
-	clear:both;
-}
-#navi{position:absolute; width:100%; background-color: rgba(0, 0, 0, 0.25); z-index: 1;}
-
-/* GNB list */
-.menu-list{
-    display: none;
-    cursor: pointer;
-    float: right;
-    position: absolute;
-    top: 2vh;
-    right: 5vw;
+/* 네비게이션 */
+.nav{
+    position:absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    height: 120px;
 }
 
 
-/* GNB */
-.logo{
-    display: inline-block;
-    height: 10vh;
-    /* width:11.7%;
-    padding: 7.5px 0px; */
-}
-.logo>img{height: 10vh;}
-nav{
-    width:62.5%;                   /* 임시 픽셀 */
-    margin: 0 auto;
-}
-nav>ul{
-    float:right;
-    align-items: center;
-}
+/* GNB*/
+.logo{margin-top: 20px;}
 
-.gnb>li{
-    float:left;
-    /* padding: 27px 5px;  */
-    text-align: center;
-    width:130px;
-    line-height: 10vh;
+.menu{
+    float: right
 }
-.gnb>li>a{
-    /* font-size: 1.3021vw; */
+.menu::after{
+    content: '';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.menu li{
+    float: left;
+    height: 120px;
+    line-height: 120px;
+    padding: 0px 24px;
+}
+.menu li a{
     font-size: 20px;
-    font-weight: 800;
-    color: var( --color-white);
+    color:var(--color-white);
+    font-weight: bold;
 }
 
-/* 서브메뉴 */
-.sub{
-    display: none;
+
+
+/* sec01 */
+.sec_01{
+    background-image: url(/images/main/visualIMG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_title{
+    text-align: center;
+}
+.main_title>h1{
+    font-size: 100px;
+    color: var(--color-white);
+    font-weight: 900;
+}
+.main_title>p{
+    font-size: 24px;
+    color:var(--color-white);
+}
+
+
+
+
+
+/* main bg*/
+.main_bg{
+    background-image: url(/images/main/main_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 4000px;
+    height: 3000px;
+    position: absolute;
+    z-index: -1;
+    top:-180px;
+    left: -1000px;
+}
+
+
+
+/* main bg*/
+
+
+
+
+/* sec02 , sec03 */
+.sec_02_textbox{
     position: relative;
-    top:-5px;
+    bottom: 100px;
 }
-.sub>li{
-    width:100%;
-    text-align:center;
-    line-height: 5vh;
-    /* background-color: #fff; */
+.sec_02_textbox>h1{
+    font-size: 100px;
+    line-height: 1.1;
+    font-weight: 900;
 }
-.sub>li>a{
-    font-size: 16px;
-    font-weight: 800;
-    color: var( --color-white);
+.sec_02_textbox>em{
+    font-style: normal;
+    font-size: 40px;
+}
+.sec_02_textbox>p{
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+.sec_02_imgbox{
+    text-align: center;
+}
+.sec_02_imgbox>img{
+    padding: 10px;
+    width:300px;
+}
+.sec_02_imgbox>img:nth-child(1){
+    position: relative;
+    top:250px;
+}
+.sec_02_imgbox>img:nth-child(2){
+    position: relative;
+    top:110px;
+}
+
+
+/* sec_03 */
+.sec_03_textbox{
+    position: relative;
+    top:75px;
+    text-align: right;
+}
+
+.sec_03_textbox>h1{
+    font-size: 100px;
+    line-height: 1.1;
+    font-weight: 900;
+}
+.sec_03_textbox>em{
+    font-style: normal;
+    font-size: 40px;
+}
+.sec_03_textbox>p{
+    font-size: 18px;
+    margin-top: 35px;
+    text-align: left;
+}
+
+.sec_03_imgbox{
+    position: relative;
+    top:75px;
+}
+
+.sec_03_imgbox>img{
+    padding: 10px;
+}
+.sec_03_imgbox>img:nth-child(2){
+    position: relative;
+    left: 132px;
+}
+.sec_03_imgbox>img:nth-child(3){
+    position: relative;
+    left: 45px;
 }
