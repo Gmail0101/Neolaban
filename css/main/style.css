@@ -192,7 +192,7 @@ body{font-family: 'NanumSquare', sans-serif;}
 .sec_01{
     background-image: url(../../images/main/visualIMG.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    overflow: hidden;
 }
 
 .main_title{
@@ -214,14 +214,14 @@ body{font-family: 'NanumSquare', sans-serif;}
 
 /* main bg*/
 .main_bg{
-    background-image: url(/images/main/main_bg.png);
+    background-image: url(../../images/main/main_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 4000px;
     height: 3000px;
     position: absolute;
     z-index: -1;
-    top:-180px;
+    top:-190px;
     left: -1000px;
 }
 

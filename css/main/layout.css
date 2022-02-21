@@ -1,0 +1,11 @@
+
+
+/* 1199 이하 디바이스  */
+@media (max-width : 1199px) {
+    #fp-nav{display: none;}
+    .sec_02_textbox{bottom:0;}
+
+    /* sec02 */
+    .sec_02_imgbox>img:nth-child(1){top:0}
+    .sec_02_imgbox>img:nth-child(2){top:0}
+}
