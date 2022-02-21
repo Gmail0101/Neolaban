@@ -190,7 +190,7 @@ body{font-family: 'NanumSquare', sans-serif;}
 
 /* sec01 */
 .sec_01{
-    background-image: url(/images/main/visualIMG.png);
+    background-image: url(../../images/main/visualIMG.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
