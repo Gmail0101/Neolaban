@@ -11,4 +11,77 @@ new fullpage('#fullpage', {
     navigationTooltips: ['COMPANY', 'B2B BUSINESS', 'B2C BUSINESS', 'PARTNERSHIP'],  // Nav 이름
     showActiveTooltip:true,     // 말풍선 위젯
 
+    onLeave: function(origin, destination, direction){
+
+		//MainPage 1
+        if(destination.index == 0){
+            $("#fp-nav ul li .fp-tooltip").css({            /* tooptip 수정 */
+                "color":"#fff",
+                "font-weight":"bold"
+            })
+            $("#fp-nav ul li a span").css({"background":"white"})   /* tooptip 수정 */
+            $(".logo").attr("src", "./images/logo/logo.png")    /* logo white */
+            $(".menu li a").css({"color":"white"})       /* GNB Color */
+		}
+        $(".menu>li").on({
+            mouseover : function(){
+                $(".submenu").stop().slideDown();
+                $(".nav").css({
+                    "height":"320px",
+                    "background":"rgba(255,255,255,0.7)"
+                })
+                $(".logo").attr("src", "./images/logo/logo_color.png")  /* logo Color */
+                $(".menu li a").css({"color":"#000"})       /* GNB Color */
+            },
+            mouseleave : function(){
+                $(".submenu").stop().slideUp();
+                $(".nav").css({
+                    "height":"120px",
+                    "background":"none"
+                })
+                $(".logo").attr("src", "./images/logo/logo.png")    /* logo white */
+                $(".menu li a").css({"color":"white"})       /* GNB Color */
+            }
+        })
+
+        
+        //MainPage 2
+		if(destination.index == 1){
+            $("#fp-nav ul li .fp-tooltip").css({"color":"#222",})   /* tooptip 수정 */
+            $("#fp-nav ul li a span").css({"background":"black"})   /* tooptip 수정 */
+            $(".logo").attr("src", "./images/logo/logo_color.png")  /* logo Color */
+            $(".menu li a").css({"color":"#000"})       /* GNB Color */
+
+            $(".menu>li").on({
+                mouseover : function(){
+                    $(".submenu").stop().slideDown();
+                    $(".nav").css({
+                        "height":"320px",
+                        "background":"rgba(255,255,255,0.7)"
+                    })
+                    // $(".logo").attr("src", "./images/logo/logo_color.png")  /* logo Color */
+                    // $(".menu li a").css({"color":"#000"})       /* GNB Color */
+                },
+                mouseleave : function(){
+                    $(".submenu").stop().slideUp();
+                    $(".nav").css({
+                        "height":"120px",
+                        "background":"none"
+                    })
+                    $(".logo").attr("src", "./images/logo/logo_color.png")  /* logo Color */
+                    $(".menu li a").css({"color":"#000"})       /* GNB Color */
+                }
+            })
+		}
+
+        //MainPage 3
+        if(destination.index == 2){
+
+		}
+
+        //MainPage 4
+        if(destination.index == 3){
+
+		}
+	}
 })
