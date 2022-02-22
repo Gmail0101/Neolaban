@@ -29,6 +29,41 @@
 
 /* 767 이하 디바이스  */
 @media (max-width : 767px) {
+    .mobile_img>img{width:100%; margin: 10px;}
+
+    /* slide_menu */
+    .slide_gnb>li{
+        font-size: 26px;
+        margin: 0; padding: 0;
+        height: 50px;
+    }
+    .slide_gnb>li:hover{
+        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+        height: 120px;
+    }
+    .slide_lnb>li{
+        font-size: 12px;
+        width:100vw;
+        height: auto;
+        line-height:normal;
+        padding: 5px 40px;
+    }
+    .slide_head{
+        margin-bottom: 66px;
+    }
+
+
+
+
+    /* sec01 */
+    .sec_01{
+        background-image: url(../../images/767/visualIMG.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+
     .visible_img{display: none !important;}     /* flex */
     .mobile_flex{display: flex !important; justify-content: space-between;}
     .menuBar{top:10%;}
