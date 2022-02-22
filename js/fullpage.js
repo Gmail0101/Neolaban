@@ -21,7 +21,9 @@ new fullpage('#fullpage', {
             })
             $("#fp-nav ul li a span").css({"background":"white"})   /* tooptip 수정 */
             $(".logo").attr("src", "./images/logo/logo.png")    /* logo white */
+            $(".mobile_logo").attr("src", "./images/767/logo.png")    /* mobile_logo  */
             $(".menu li a").css({"color":"white"})       /* GNB Color */
+            $(".menuBar>span").css({"background-color":"#fff"}) /* 햄버거 메뉴 */
 		}
         $(".menu>li").on({
             mouseover : function(){
@@ -50,7 +52,9 @@ new fullpage('#fullpage', {
             $("#fp-nav ul li .fp-tooltip").css({"color":"#222",})   /* tooptip 수정 */
             $("#fp-nav ul li a span").css({"background":"black"})   /* tooptip 수정 */
             $(".logo").attr("src", "./images/logo/logo_color.png")  /* logo Color */
+            $(".mobile_logo").attr("src", "./images/767/logo_color.png")    /* mobile_logo  */
             $(".menu li a").css({"color":"#000"})       /* GNB Color */
+            $(".menuBar>span").css({"background-color":"#000"}) /* 햄버거 메뉴 */
 
             $(".menu>li").on({
                 mouseover : function(){

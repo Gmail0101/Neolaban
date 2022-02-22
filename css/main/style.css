@@ -115,7 +115,7 @@ body{font-family: 'NanumSquare', sans-serif;}
 
 /* GNB*/
 .gnb{position: relative;}
-.logo{margin-top: 20px;}
+.logo{margin-top: 20px; display: inline-block !important;}
 
 .menu{
     float: right
@@ -174,7 +174,7 @@ body{font-family: 'NanumSquare', sans-serif;}
     display: block;
     width:30px;
     height: 3px;
-    background-color: #000;
+    background-color: #fff;
 }
 .menuBar>span:nth-child(2){
     position: absolute;
@@ -314,7 +314,7 @@ body{font-family: 'NanumSquare', sans-serif;}
 /* sec04 */
 .sec_04{
     position: relative;
-    bottom:200px;
+    bottom:100px;
 }
 .sec_04_title{
     text-align: center;
@@ -345,6 +345,13 @@ body{font-family: 'NanumSquare', sans-serif;}
 }
 .ft_logo{
     padding: 20px 0px;
+}
+.foot_list::after{
+    content: '';
+    display:block;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
 }
 .foot_list>li{
     float: left;
