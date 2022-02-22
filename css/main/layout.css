@@ -51,7 +51,9 @@
     .slide_head{
         margin-bottom: 66px;
     }
-
+    .logo{display: none !important;}
+    .menuBar{top:10%;}
+    .mobile_logo{margin-top: 15px;}
 
 
 
@@ -66,9 +68,6 @@
 
     .visible_img{display: none !important;}     /* flex */
     .mobile_flex{display: flex !important; justify-content: space-between;}
-    .menuBar{top:10%;}
-    .logo{display: none !important;}
-    .mobile_logo{margin-top: 15px;}
 
 
     .main_title>h1{font-size: 26px;}
