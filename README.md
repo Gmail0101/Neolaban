@@ -38,3 +38,6 @@ Java Email API를 사용했다.
   - ci.html
   - map.html 
   - 레이아웃 테스트 해봐야함
+  
+  # 02-23 var 3.0.1
+  - ci 페이지 수정 

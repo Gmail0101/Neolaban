@@ -72,10 +72,11 @@ ul{margin: 0;}  /* 부트스트랩에 있는 마진삭제 */
 
 .ci_text>em{
     font-style: normal;
-    font-size: 20px;
+    font-size: 34px;
+    font-weight: 900;
 }
 .ci_text>p{
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 20px;
 }
 
@@ -92,11 +93,19 @@ ul{margin: 0;}  /* 부트스트랩에 있는 마진삭제 */
 }
 .ci_color>div>p{
     font-size: 18px;
+    padding: 26px;
+    text-align: center;
 }
 
 .color_pick{
     width:100%; height: 130px;
     text-align: center;
+}
+.color_pick>p{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 130px;
+    color:white;
 }
 
 .ci_color>div:nth-child(1) .color_pick{background-color: #5587E7;}

@@ -1,0 +1,30 @@
+
+
+/* 768 ~ 992 디바이스  */
+@media (min-width:768px) and (max-width : 992px) {
+    
+        
+    /* visual title 영역 */
+    .title{width:100%;}
+    .title>p{font-size: 16px;}
+
+
+
+
+}
+
+/* 767 이하 디바이스  */
+@media (max-width : 767px) {
+
+
+    /* visual title 영역 */
+    .title{width:70%;}
+    .title>h1{font-size: 26px;}
+    .title>p{font-size: 12px;}
+
+
+    /* Nav */
+    .tab_nav>ul>li>a{font-size: 18px;}
+
+
+}
