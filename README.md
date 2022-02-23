@@ -32,3 +32,9 @@ Java Email API를 사용했다.
  
   # 02-22 var 2.0.1
   - company.html 레이아웃 테스트
+  
+  # 02-23 var 3.0.0
+  - company.html 
+  - ci.html
+  - map.html 
+  - 레이아웃 테스트 해봐야함

@@ -17,9 +17,9 @@ $(".slide_menu").html(`
                         <ul class="slide_gnb">
                             <li>회사소개
                                 <ul class="slide_lnb">
-                                    <li>인사말</li>
-                                    <li>CI</li>
-                                    <li>오시는길</li>
+                                    <li onclick="location.href='/index.html';">인사말</li>
+                                    <li onclick="location.href='/ci.html';">CI</li>
+                                    <li onclick="location.href='/map.html';">오시는길</li>
                                 </ul>
                             </li>
                             <li>B2B Business
@@ -57,9 +57,9 @@ $(".slide_menu").html(`
                         <ul class="menu visible-lg">
                             <li><a href="/company.html">회사소개</a>
                                 <ul class="submenu">
-                                    <li><a href="#">인사말</a></li>
-                                    <li><a href="#">CI</a></li>
-                                    <li><a href="#">오시는길</a></li>
+                                    <li><a href="/company.html">인사말</a></li>
+                                    <li><a href="/ci.html">CI</a></li>
+                                    <li><a href="/map.html">오시는길</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">B2B Business</a>
