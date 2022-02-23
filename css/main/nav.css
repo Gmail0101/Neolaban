@@ -37,7 +37,9 @@ body{font-family: 'NanumSquare', sans-serif;}
 
 /* slideMenu */
 .slide_menu{
-    position:absolute;
+    /* content z-index가 안먹힘 */
+    /* position:absolute;    */
+    position:fixed;
     z-index: 999;
     transform: translateX(100%);
     transition: all 1s;

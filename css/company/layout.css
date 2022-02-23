@@ -1,12 +1,63 @@
 
 
-/* 1199 이하 디바이스  */
-@media (max-width : 1199px) {
+/* 768 ~ 992 디바이스  */
+@media (min-width:768px) and (max-width : 992px) {
     
+        
+    /* visual title 영역 */
+    .title{width:100%;}
+    .title>p{font-size: 16px;}
+
+
+    /* contWrap */
+
+    .ceoIMG{text-align: right;}
+    .ceoName{left: 0;}
+
+
 
 }
 
 /* 767 이하 디바이스  */
 @media (max-width : 767px) {
 
+
+    /* visual title 영역 */
+    .title{width:70%;}
+    .title>h1{font-size: 26px;}
+    .title>p{font-size: 12px;}
+
+
+    /* Nav */
+    .tab_nav>ul>li>a{font-size: 18px;}
+
+
+    /* contWrap */
+    .contWarp{margin-top: 42px;}
+    .title-01{margin: 0;}
+    .title-01>h1{font-size: 26px;}
+    .title-01>p{font-size: 18px;}
+
+    .ceo_text{margin-top: 20px;}
+    .ceo_text>p{font-size: 12px; line-height: 1.5;}
+
+    .ceoIMG{text-align: right;}
+    .ceoName{left: 0;}
+    .ceoName>em{font-size: 16px;}
+    .ceoName>h2{font-size: 26px;}
+
+
+    .title-02{margin-top: 100px; margin-bottom: 100px;}
+    
+
+    .circle_box{height: 205px;}
+    .circle_box::after{
+        width:205px; height: 205px;
+    }
+    /*
+    .circle_box:nth-child(3)::after{top:-4vh}
+    .circle_box:nth-child(4)::after{top:-8vh}
+    .circle_box:nth-child(5)::after{top:-12vh}
+    */
+    .circle_box>p{font-size: 14px;}
 }
