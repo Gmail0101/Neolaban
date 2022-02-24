@@ -24,8 +24,8 @@ $(".slide_menu").html(`
                             </li>
                             <li>B2B Business
                                 <ul class="slide_lnb">
-                                    <li onclick="location.href='/mask.html';">마스크 제조 및 유통</li>
-                                    <li onclick="location.href='/phone.html';">휴대폰 수출 및 유통</li>
+                                    <li onclick="location.href='./mask.html';">마스크 제조 및 유통</li>
+                                    <li onclick="location.href='./phone.html';">휴대폰 수출 및 유통</li>
                                 </ul>
                             </li>
                             <li>B2C Business
@@ -64,8 +64,8 @@ $(".slide_menu").html(`
                             </li>
                             <li><a href="/mask.html">B2B Business</a>
                                 <ul class="submenu">
-                                    <li><a href="/mask.html">마스크 제조 및 유통</a></li>
-                                    <li><a href="/phone.html">휴대폰 수출 및 유통</a></li>
+                                    <li><a href="./mask.html">마스크 제조 및 유통</a></li>
+                                    <li><a href="./phone.html">휴대폰 수출 및 유통</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">B2C Business</a>
