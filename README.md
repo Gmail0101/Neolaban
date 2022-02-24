@@ -48,5 +48,8 @@ Java Email API를 사용했다.
 
   # 02-23 var 3.1.1
   - maskPage layout 수정
-    # 02-23 var 3.1.2
+  # 02-23 var 3.1.2
   - maskPage link 수정
+
+  # 02-23 var 3.2.0
+  - phonePage 테스트

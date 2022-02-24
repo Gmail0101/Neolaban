@@ -27,4 +27,25 @@
     .tab_nav>ul>li>a{font-size: 18px;}
 
 
+
+    /* contWarp*/
+    .phone_title>h1{font-size: 26px;}
+    .phone_sec01{margin-top: 75px;}
+
+    .phone_typeAll>h2{font-size: 20px;}
+    .phone_type>ul>li{font-size: 12px;}
+    .phone_type>p{font-size: 12px;}
+
+
+
+    /* sec02 */
+    .phone_sec02>h2{font-size:20px; font-weight: bold;}
+
+
+    /*sec03 */
+    .phone_sec03{margin-top: 60px;}
+    .phone_sec03>h2{font-size: 20px;}
+    .phone_sec03>p{font-size: 12px;}
+
+
 }

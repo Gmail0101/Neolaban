@@ -48,3 +48,78 @@ ul{margin: 0;}  /* 부트스트랩에 있는 마진삭제 */
 }
 .tab_nav>ul>li:nth-child(1)>a{color:white;}
 .tab_nav>ul>li:nth-child(2)>a{color:#000;}
+
+
+
+/* contWarp */
+
+.phone_title{
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+.phone_title>h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.phone_title>h1::after{
+    content: '';
+    display: block;
+    width:80px; height: 8px;
+    background-color: #5587E7;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+}
+
+
+/* sec01 */
+
+.phone_sec01,.phone_sec02{
+    margin-top: 60px;
+}
+
+.phone_typeAll>h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.phone_type{padding: 10px 25px;}
+.phone_type>ul>li{
+    font-size: 26px;
+    font-weight: bold;
+    color:#444444;
+}
+.phone_type>p{
+    font-size: 18px;
+    color:#444;
+}
+
+
+/* sec02 */
+.phone_sec02{
+    margin-bottom: 16px;
+}
+
+.phone_step>p{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 11px;
+}
+
+/* sec03 */
+
+.phone_sec03>h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.phone_sec03>p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.phone_sec03>img{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
