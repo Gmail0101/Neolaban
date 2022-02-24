@@ -30,8 +30,8 @@ $(".slide_menu").html(`
                             </li>
                             <li>B2C Business
                                 <ul class="slide_lnb">
-                                    <li>분양대행</li>
-                                    <li>밀키트 사업</li>
+                                    <li onclick="location.href='./consumer.html';">분양대행</li>
+                                    <li onclick="location.href='./mealkit.html';">밀키트 사업</li>
                                 </ul>
                             </li>
                             <li>미디어센터</li>
@@ -55,23 +55,23 @@ $(".slide_menu").html(`
                         <img onclick="location.href='/index.html';" style="cursor:pointer;" src="./images/logo/logo.png" alt="로고" class="logo visible-sm visible-md visible-lg">
                         <img src="./images/767/logo.png" alt="로고" class="mobile_logo visible-xs">
                         <ul class="menu visible-lg">
-                            <li><a href="/company.html">회사소개</a>
+                            <li><a href="./company.html">회사소개</a>
                                 <ul class="submenu">
                                     <li><a href="./company.html">인사말</a></li>
                                     <li><a href="./ci.html">CI</a></li>
                                     <li><a href="./map.html">오시는길</a></li>
                                 </ul>
                             </li>
-                            <li><a href="/mask.html">B2B Business</a>
+                            <li><a href="./mask.html">B2B Business</a>
                                 <ul class="submenu">
                                     <li><a href="./mask.html">마스크 제조 및 유통</a></li>
                                     <li><a href="./phone.html">휴대폰 수출 및 유통</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">B2C Business</a>
+                            <li><a href="./consumer.html">B2C Business</a>
                                 <ul class="submenu">
-                                    <li><a href="#">분양대행</a></li>
-                                    <li><a href="#">밀키트 사업</a></li>
+                                    <li><a href="./consumer.html">분양대행</a></li>
+                                    <li><a href="./mealkit.html">밀키트 사업</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">미디어센터</a></li>

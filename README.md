@@ -53,3 +53,8 @@ Java Email API를 사용했다.
 
   # 02-23 var 3.2.0
   - phonePage 테스트
+
+
+  # 02-23 var 4.0.0
+  - mealkitPage 테스트
+  

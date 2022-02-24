@@ -1,0 +1,45 @@
+@media (max-width : 1199px) {
+    .meal_text{transform: none;}
+}
+
+/* 768 ~ 992 디바이스  */
+@media (min-width:768px) and (max-width : 992px) {
+    
+        
+    /* visual title 영역 */
+    .title{width:100%;}
+    .title>p{font-size: 16px;}
+
+
+}
+
+/* 767 이하 디바이스  */
+@media (max-width : 767px) {
+
+
+    /* visual title 영역 */
+    .title{width:70%;}
+    .title>h1{font-size: 26px;}
+    .title>p{font-size: 12px;}
+
+
+    /* Nav */
+
+    .tab_nav>ul>li>a{font-size: 18px;}
+
+
+    /* contWarp */
+    .contWarp{margin-top: 42px;}
+
+    .meal_title>h1{font-size: 26px;}
+    .meal_text>h2{font-size: 20px;}
+    .meal_box>ul>li{font-size: 12px;}
+    .meal_box>p{font-size: 12px; padding: 5px 0px;}
+    
+    .meal_sec02>h2{font-size: 20px;}
+
+    .meal_step>span{font-size: 18px;}
+    .meal_step>em{font-size: 18px;}
+    .meal_step>p{font-size: 12px; margin: 0 0 5px;}
+
+}
