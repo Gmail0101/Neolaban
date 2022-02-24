@@ -45,3 +45,6 @@ Java Email API를 사용했다.
   # 02-23 var 3.1.0
   - GNB link 수정
   - SubPage tabnav link 수정
+
+  # 02-23 var 3.1.1
+  - maskPage layout 수정

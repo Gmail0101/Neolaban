@@ -1,4 +1,17 @@
 
+/* 1199이하 디바이스  */
+@media (max-width : 1199px){
+
+    /* mask-sec01 */
+    .mask_text>h2{font-size: 26px;}
+    .mask_text>em{font-size: 20px;}
+
+
+
+    /* step-2 */
+        
+}
+
 
 /* 768 ~ 992 디바이스  */
 @media (min-width:768px) and (max-width : 992px) {
@@ -9,6 +22,12 @@
     .title>p{font-size: 16px;}
 
 
+    /* step-2 */
+    .step-2{height: auto;}
+    .step-block{
+        overflow: hidden;
+    }
+    .step_text>p{margin: 0;}
 
 
 }
@@ -27,4 +46,36 @@
     .tab_nav>ul>li>a{font-size: 18px;}
 
 
+    /* contWarp */
+    .mask_title{margin-top: 42px;}
+    .mask_title>h1{
+        font-size: 26px;
+    }
+
+
+
+    /* sec01 */
+    .mask_sec01{margin-top: 75px;}
+
+    .mask_text>h2{font-size: 20px;}
+    .mask_text>em{font-size: 16px;}
+    .mask_text>p{font-size: 12px;}
+
+
+    
+    /* sec03 */
+    .mask_sec03{margin-top: 40px;}
+    .mask_sec03>div>strong{font-size: 20px;}
+    .step-2{height: auto;}
+    .step>p{font-size: 16px;}
+
+    .step_text>p{margin: 0; font-size: 12px;}
+    .step-circle{width: 64px; height: 64px; margin: 4px;}
+    .step-circle>p{font-size: 7px;}
+    .step-circle:nth-child(5)>p{font-size: 11px;}
+    .step-circle::after{
+        background-image: url(../../images/mask/767/mobile_arr.png);
+        left:107%;
+        transform: translateY(-20%);
+    }
 }
