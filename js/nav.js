@@ -17,15 +17,15 @@ $(".slide_menu").html(`
                         <ul class="slide_gnb">
                             <li>회사소개
                                 <ul class="slide_lnb">
-                                    <li onclick="location.href='/index.html';">인사말</li>
-                                    <li onclick="location.href='/ci.html';">CI</li>
-                                    <li onclick="location.href='/map.html';">오시는길</li>
+                                    <li onclick="location.href='./index.html';">인사말</li>
+                                    <li onclick="location.href='./ci.html';">CI</li>
+                                    <li onclick="location.href='./map.html';">오시는길</li>
                                 </ul>
                             </li>
                             <li>B2B Business
                                 <ul class="slide_lnb">
-                                    <li>마스크 제조 및 유통</li>
-                                    <li>휴대폰 수출 및 유통</li>
+                                    <li onclick="location.href='/mask.html';">마스크 제조 및 유통</li>
+                                    <li onclick="location.href='/phone.html';">휴대폰 수출 및 유통</li>
                                 </ul>
                             </li>
                             <li>B2C Business
@@ -57,15 +57,15 @@ $(".slide_menu").html(`
                         <ul class="menu visible-lg">
                             <li><a href="/company.html">회사소개</a>
                                 <ul class="submenu">
-                                    <li><a href="/company.html">인사말</a></li>
-                                    <li><a href="/ci.html">CI</a></li>
-                                    <li><a href="/map.html">오시는길</a></li>
+                                    <li><a href="./company.html">인사말</a></li>
+                                    <li><a href="./ci.html">CI</a></li>
+                                    <li><a href="./map.html">오시는길</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">B2B Business</a>
+                            <li><a href="/mask.html">B2B Business</a>
                                 <ul class="submenu">
-                                    <li><a href="#">마스크 제조 및 유통</a></li>
-                                    <li><a href="#">휴대폰 수출 및 유통</a></li>
+                                    <li><a href="/mask.html">마스크 제조 및 유통</a></li>
+                                    <li><a href="/phone.html">휴대폰 수출 및 유통</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">B2C Business</a>

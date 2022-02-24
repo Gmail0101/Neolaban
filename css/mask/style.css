@@ -48,3 +48,72 @@ ul{margin: 0;}  /* 부트스트랩에 있는 마진삭제 */
 }
 .tab_nav>ul>li:nth-child(1)>a{color:#000;}
 .tab_nav>ul>li:nth-child(2)>a{color:white;}
+
+
+
+/* contWarp */
+
+.mask_title{
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+.mask_title>h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.mask_title>h1::after{
+    content: '';
+    display: block;
+    width:80px; height: 8px;
+    background-color: #5587E7;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+}
+
+
+
+
+
+
+/* mask_sec01 */
+
+.mask_sec01,.mask_sec02,.mask_sec03{
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.mask_text>h2{
+    font-size: 36px;
+    font-weight: bold;
+    color:#5587E7;
+}
+.mask_text>em{
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 12px;
+}
+.mask_text>p{
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* step */
+.mask_sec03>div>strong{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 16px;
+    display: block;
+}
+.step>p{
+    font-size: 18px;
+    line-height: 1.25;
+    font-weight: bold;
+    padding: 12.5px;
+}
+.step>img{width:100%;}
