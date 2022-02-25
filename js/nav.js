@@ -34,7 +34,7 @@ $(".slide_menu").html(`
                                     <li onclick="location.href='./mealkit.html';">밀키트 사업</li>
                                 </ul>
                             </li>
-                            <li>미디어센터</li>
+                            <li onclick="location.href='./media.html';">미디어센터</li>
                         </ul>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ $(".slide_menu").html(`
                                     <li><a href="./mealkit.html">밀키트 사업</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">미디어센터</a></li>
+                            <li><a href="./media.html">미디어센터</a></li>
                         </ul>
                         <div class="menuBar hidden-lg">
                             <span></span>

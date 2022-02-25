@@ -39,22 +39,25 @@ Java Email API를 사용했다.
   - map.html 
   - 레이아웃 테스트 해봐야함
   
-  # 02-23 var 3.0.1
+  # 02-24 var 3.0.1
   - ci 페이지 수정
 
-  # 02-23 var 3.1.0
+  # 02-24 var 3.1.0
   - GNB link 수정
   - SubPage tabnav link 수정
 
-  # 02-23 var 3.1.1
+  # 02-24 var 3.1.1
   - maskPage layout 수정
-  # 02-23 var 3.1.2
+  # 02-24 var 3.1.2
   - maskPage link 수정
 
-  # 02-23 var 3.2.0
+  # 02-24 var 3.2.0
   - phonePage 테스트
 
 
-  # 02-23 var 4.0.0
+  # 02-24 var 4.0.0
   - mealkitPage 테스트
   
+  # 02-25 var 5.0.0
+  - mediaPage Java mail API 활용해서 어느정도 마침
+  - 레이아웃이 잘못된곳이 있나 지속해서 확인하여 수정해야함

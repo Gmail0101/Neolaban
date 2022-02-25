@@ -1,0 +1,128 @@
+/* 사이드 메뉴 overflow 발생 */
+.visual{overflow: hidden;}     
+ul{margin: 0;}  /* 부트스트랩에 있는 마진삭제 */
+
+/* section visual */
+.visual{position: relative;}
+.visual>img{
+    width:100%;
+}
+.title{
+    position: absolute;
+    top:0;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.title>h1{
+    font-size: 80px;
+    font-weight: 900;
+    color:white;
+}
+.title>p{
+    font-size: 24px;
+    color:white;
+}
+
+
+
+/* tab_nav */
+/* .tab__nav{background-color: #5587E7;}
+.tab_nav>ul{
+    display: flex;
+    height: 56px;
+    line-height: 56px;
+}
+.tab_nav>ul>li{
+    width:100%;
+    text-align: center;
+}
+.tab_nav>ul>li:nth-child(3){background-color: white;}
+.tab_nav>ul>li:nth-child(2){border-left: 1px solid white; border-right: 1px solid white;}
+
+.tab_nav>ul>li>a{
+    display: block;
+    font-size: 24px;
+    font-weight: 900;
+}
+.tab_nav>ul>li:nth-child(1)>a{color:white;}
+.tab_nav>ul>li:nth-child(2)>a{color:white;}
+.tab_nav>ul>li:nth-child(3)>a{color:#000;} */
+
+
+
+/* section contWarp */
+
+.contWarp{
+    margin-top: 100px;
+}
+.media_title>h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.mail{padding: 12px;}
+
+.mail>label{
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 85px;
+    line-height: 85px;
+    font-size: 26px;
+    border-radius: 15px 15px 15px 15px;
+    padding-left: 7%;
+
+    border: 1px solid #444;
+}
+.mail_icon{
+    position: absolute;
+    top:50%;
+    left: 3%;
+    transform: translateY(-50%);
+}
+
+/* icon 위치 */
+.mail__icon{left:2.5%;}
+.mail___icon{left:3.5%;}
+/* icon 위치 */
+.mail>label>img{padding: 0px 15px 0px 30px;}
+.mail>label>input{
+    border: 0;
+    outline: 0;
+    width: 79%;
+    height: 83px;
+    font-size: 26px;
+    padding-left: 2%;
+    float: right;
+
+    border-radius: 0 15px 15px 0px;
+}
+
+.mail_box>span{
+    position: absolute;
+    left: 30px;
+    top:15px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.mail_box>textarea{
+    width:100%;
+
+    outline: none;
+    border-radius: 15px;
+    padding: 60px 15px 15px 15px;
+}
+
+.mail_check>label{font-size: 16px; margin-top: 46px; margin-bottom: 24px;}
+
+.mail_submit{margin-bottom: 100px;}
+.mail_submit>input{
+    width:300px; height: 50px;
+    border: 0;
+    outline: 0;
+    background-color: #5587E7;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
