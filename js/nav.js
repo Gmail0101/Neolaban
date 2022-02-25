@@ -17,7 +17,7 @@ $(".slide_menu").html(`
                         <ul class="slide_gnb">
                             <li>회사소개
                                 <ul class="slide_lnb">
-                                    <li onclick="location.href='./index.html';">인사말</li>
+                                    <li onclick="location.href='./company.html';">인사말</li>
                                     <li onclick="location.href='./ci.html';">CI</li>
                                     <li onclick="location.href='./map.html';">오시는길</li>
                                 </ul>

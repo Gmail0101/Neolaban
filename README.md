@@ -61,3 +61,7 @@ Java Email API를 사용했다.
   # 02-25 var 5.0.0
   - mediaPage Java mail API 활용해서 어느정도 마침
   - 레이아웃이 잘못된곳이 있나 지속해서 확인하여 수정해야함
+
+  # 02-25 var 5.0.1
+  - 사이드메뉴 link 수정
+  - lorem 텍스트 채워넣어야한다.
