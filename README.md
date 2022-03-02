@@ -72,3 +72,4 @@ Java Email API를 사용했다.
   # 03-02 var 5.0.3
   - transition-delay 추가
   - main IMG link 연결
+  - 협업사 logo 추가
