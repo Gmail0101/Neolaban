@@ -51,7 +51,10 @@
 /* sec02 , sec03 */
 .sec_02_textbox{
     position: relative;
-    bottom: 9px;
+    bottom: 70px;
+    transition: all 1.5s;
+    opacity: 0;
+
 }
 .sec_02_textbox>h1{
     font-size: 100px;
@@ -76,19 +79,25 @@
 }
 .sec_02_imgbox>img:nth-child(1){
     position: relative;
-    top:22.5vh;
+    top:18.5vh;
+    transition: all 1.5s;
+    opacity: 0;
 }
 .sec_02_imgbox>img:nth-child(2){
     position: relative;
-    top:10vh;
+    top:6vh;
+    transition: all 1.5s;
+    opacity: 0;
 }
 
 
 /* sec_03 */
 .sec_03_textbox{
     position: relative;
-    top:75px;
+    top:0px;
     text-align: right;
+    transition: all 1.5s;
+    opacity: 0;
 }
 
 .sec_03_textbox>h1{
@@ -114,13 +123,23 @@
 .sec_03_imgbox>img{
     padding: 10px;
 }
+.sec_03_imgbox>img:nth-child(1){
+    position: relative;
+    left: -70px;
+    transition: all 1.5s;
+    opacity: 0;
+}
 .sec_03_imgbox>img:nth-child(2){
     position: relative;
-    left: 132px;
+    left: 62px;
+    transition: all 1.5s;
+    opacity: 0;
 }
 .sec_03_imgbox>img:nth-child(3){
     position: relative;
-    left: 45px;
+    left: -25px;
+    transition: all 1.5s;
+    opacity: 0;
 }
 
 
@@ -139,14 +158,14 @@
     font-size: 60px;
     font-weight: 900;
 }
+
 .part_logo{
     display: inline-block;
     width:200px;
     height: 80px;
-    background-color: #b5b5b5;
+    /* background-color: #b5b5b5; */
     margin: 20px;
 }
-
 
 
 

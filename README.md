@@ -65,3 +65,6 @@ Java Email API를 사용했다.
   # 02-25 var 5.0.1
   - 사이드메뉴 link 수정
   - lorem 텍스트 채워넣어야한다.
+
+  # 03-02 var 5.0.2
+  - transition 추가

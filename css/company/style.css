@@ -75,6 +75,9 @@ ul{margin: 0;}  /* 부트스트랩에 있는 마진삭제 */
     line-height: 1.25;
     color:#777777;
 }
+.ceo_text>p:nth-child(2){
+    /* line-height: 1.5; */
+}
 
 .ceoIMG{position: relative;}
 .ceoName{

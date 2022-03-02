@@ -76,16 +76,94 @@ new fullpage('#fullpage', {
                     $(".menu li a").css({"color":"#000"})       /* GNB Color */
                 }
             })
+
+            // sec2 b2b 
+            $(".sec_02_textbox").css({
+                "bottom":"9px",
+                "opacity": "1"
+            })
+            $(".sec_02_imgbox>img:nth-child(1)").css({
+                "top":"22.5vh",
+                "opacity": "1"
+            })
+            $(".sec_02_imgbox>img:nth-child(2)").css({
+                "top":"10vh",
+                "opacity": "1"
+            })
+
 		}
 
         //MainPage 3
         if(destination.index == 2){
+            $("#fp-nav ul li .fp-tooltip").css({"color":"#222",})   /* tooptip 수정 */
+            $("#fp-nav ul li a span").css({"background":"black"})   /* tooptip 수정 */
+            $(".logo").attr("src", "./images/logo/logo_color.png")  /* logo Color */
+            $(".mobile_logo").attr("src", "./images/767/logo_color.png")    /* mobile_logo  */
+            $(".menu li a").css({"color":"#000"})       /* GNB Color */
+            $(".menuBar>span").css({"background-color":"#000"}) /* 햄버거 메뉴 */
 
+            $(".menu>li").on({
+                mouseover : function(){
+                    $(".submenu").stop().slideDown();
+                    $(".nav").css({
+                        "height":"320px",
+                        "background":"rgba(255,255,255,0.7)"
+                    })
+                    // $(".logo").attr("src", "./images/logo/logo_color.png")  /* logo Color */
+                    // $(".menu li a").css({"color":"#000"})       /* GNB Color */
+                },
+                mouseleave : function(){
+                    $(".submenu").stop().slideUp();
+                    $(".nav").css({
+                        "height":"120px",
+                        "background":"none"
+                    })
+                    $(".logo").attr("src", "./images/logo/logo_color.png")  /* logo Color */
+                    $(".menu li a").css({"color":"#000"})       /* GNB Color */
+                }
+            })
+
+
+            $(".sec_03_imgbox>img:nth-child(1)").css({"left":"0", "opacity":"1"})
+            $(".sec_03_imgbox>img:nth-child(2)").css({"left":"132px", "opacity":"1"})
+            $(".sec_03_imgbox>img:nth-child(3)").css({"left":"45px", "opacity":"1"})
+            $(".sec_03_textbox").css({"top":"75px","opacity":"1"})
+
+            $(".sec_03_imgbox").css({"top":"75px"})
 		}
 
         //MainPage 4
         if(destination.index == 3){
+            $("#fp-nav ul li .fp-tooltip").css({"color":"#222",})   /* tooptip 수정 */
+            $("#fp-nav ul li a span").css({"background":"black"})   /* tooptip 수정 */
+            $(".logo").attr("src", "./images/logo/logo_color.png")  /* logo Color */
+            $(".mobile_logo").attr("src", "./images/767/logo_color.png")    /* mobile_logo  */
+            $(".menu li a").css({"color":"#000"})       /* GNB Color */
+            $(".menuBar>span").css({"background-color":"#000"}) /* 햄버거 메뉴 */
 
+            $(".menu>li").on({
+                mouseover : function(){
+                    $(".submenu").stop().slideDown();
+                    $(".nav").css({
+                        "height":"320px",
+                        "background":"rgba(255,255,255,0.7)"
+                    })
+                    // $(".logo").attr("src", "./images/logo/logo_color.png")  /* logo Color */
+                    // $(".menu li a").css({"color":"#000"})       /* GNB Color */
+                },
+                mouseleave : function(){
+                    $(".submenu").stop().slideUp();
+                    $(".nav").css({
+                        "height":"120px",
+                        "background":"none"
+                    })
+                    $(".logo").attr("src", "./images/logo/logo_color.png")  /* logo Color */
+                    $(".menu li a").css({"color":"#000"})       /* GNB Color */
+                }
+            })
+
+
+            $(".sec_03_imgbox").css({"top":"0"})
 		}
 	}
 })

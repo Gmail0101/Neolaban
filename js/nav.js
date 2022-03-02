@@ -5,8 +5,8 @@ $(".slide_menu").html(`
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 slide_head">
-                    <img src="./images/logo/logo.png" alt="로고" class="slide_logo visible-sm visible-md visible-lg">
-                    <img src="./images/767/logo.png" alt="로고" class="mobile_logo visible-xs">
+                    <img onclick="location.href='./index.html';" src="./images/logo/logo.png" alt="로고" class="slide_logo visible-sm visible-md visible-lg">
+                    <img onclick="location.href='./index.html';" src="./images/767/logo.png" alt="로고" class="mobile_logo visible-xs">
                     <div class="menu_close">
                         <span></span>
                         <span></span>
@@ -52,8 +52,8 @@ $(".slide_menu").html(`
             <div class="container">
                 <div class="row">
                     <div class="gnb">
-                        <img onclick="location.href='/index.html';" style="cursor:pointer;" src="./images/logo/logo.png" alt="로고" class="logo visible-sm visible-md visible-lg">
-                        <img src="./images/767/logo.png" alt="로고" class="mobile_logo visible-xs">
+                        <img onclick="location.href='./index.html';" style="cursor:pointer;" src="./images/logo/logo.png" alt="로고" class="logo visible-sm visible-md visible-lg">
+                        <img onclick="location.href='./index.html';" src="./images/767/logo.png" alt="로고" class="mobile_logo visible-xs">
                         <ul class="menu visible-lg">
                             <li><a href="./company.html">회사소개</a>
                                 <ul class="submenu">
