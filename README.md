@@ -74,3 +74,6 @@ Java Email API를 사용했다.
   - main IMG link 연결
   - 협업사 logo 추가
   - company 수정
+
+  # 03-02 var 5.0.4
+  - media inputbox width 수정

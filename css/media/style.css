@@ -89,7 +89,7 @@ ul{margin: 0;}  /* 부트스트랩에 있는 마진삭제 */
 .mail>label>input{
     border: 0;
     outline: 0;
-    width: 79%;
+    width: 75%;
     height: 83px;
     font-size: 26px;
     padding-left: 2%;
